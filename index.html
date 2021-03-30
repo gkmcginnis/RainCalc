@@ -56,9 +56,21 @@ function calculateTotal()
      $(".under").on("change keyup",calculateTotal)
  })
 
-// function numberWithCommas(x) {
-//     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-// }
+ function copyGrand() {
+  /* Get the text field */
+  var copyText = document.getElementById("grandtotal");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied your Grand Total: " + copyText.value);
+}
+
 </script>
  <div>
  <div id="header">
@@ -104,7 +116,7 @@ any given period of time; annual, single day, monsoon season, etc.
         <tr>
           <td class="surf">Yard</td>
           <td class="under"><input size="10" id = "Area2" value = "0"></input>&#215;</td>
-          <td class="under"><input size="10" id = "rainfall2"></input>&#215;</td>
+          <td class="under"><input size="10" id = "rainfall2" readonly></input>&#215;</td>
           <td class="under"><input size="10" id = "coe2" value = "0.0"></input>&#215;</td>
           <td>7.48 &#61;</td>
           <td class="total"><input class="total"  readonly value="" id="subtotal2"></input></td>
@@ -113,7 +125,7 @@ any given period of time; annual, single day, monsoon season, etc.
         <tr>
           <td class="surf">Surface 1</td>
           <td class="under"><input size="10" id = "Area3" value = "0"></input>&#215;</td>
-          <td class="under"><input size="10" id = "rainfall3"></input>&#215;</td>
+          <td class="under"><input size="10" id = "rainfall3" readonly></input>&#215;</td>
           <td class="under"><input size="10" id = "coe3" value = "0.0"></input>&#215;</td>
           <td>7.48 &#61;</td>
           <td class="total"><input class="total"  readonly value="" id="subtotal3"></input></td>
@@ -122,7 +134,7 @@ any given period of time; annual, single day, monsoon season, etc.
         <tr>
           <td class="surf">Surface 2</td>
           <td class="under"><input size="10" id = "Area4" value = "0"></input>&#215;</td>
-          <td class="under"><input size="10" id = "rainfall4"></input>&#215;</td>
+          <td class="under"><input size="10" id = "rainfall4" readonly></input>&#215;</td>
           <td class="under"><input size="10" id = "coe4" value = "0.0"></input>&#215;</td>
           <td>7.48 &#61;</td>
           <td class="total"><input class="total"  readonly value="" id="subtotal4"></input></td>
@@ -130,7 +142,7 @@ any given period of time; annual, single day, monsoon season, etc.
         <tr>
             <td class="pointer">&#9758;</td>
             <td ><button class="button" type="button" onClick="resetAllValues();">Clear Cells</button></td>
-            <td></td>
+            <td><button class="button" onclick="copyGrand()">Copy Grand total</button></td>
             <td class="grandtext" colspan="2"><span><b>Grand total <br /><em>to nearest gallon</em></b></span></td>
 
             <td class="total"><input size="15" class="total" id="grandtotal" readonly></input></td>
@@ -148,8 +160,8 @@ any given period of time; annual, single day, monsoon season, etc.
 
 
 <!-- Put some sort of "CLEAR ALL" button in  -->
-
-<p class="contact"><a href="mailto:gkylemcginnis@gmail.com">Email Kyle</a></p>
+<button class="button" type="button" onclick="location.href='mailto:gkylemcginnis@gmail.com';">Email Kyle</button>
+<!-- <p class="contact"><a href="mailto:gkylemcginnis@gmail.com">Email Kyle</a></p> -->
 <div id="footer">
 <p class="footer">
 Formulas and concept from Brad Lancasterʼs <em><a href="https://www.harvestingrainwater.com/" target="_blank"> Rainwater Harvesting for Drylands and Beyond: Volume 1</a></em>&nbsp;(link opens in new tab)<br />
