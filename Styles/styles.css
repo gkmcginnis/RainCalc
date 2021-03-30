@@ -6,6 +6,7 @@ p.intro{
     max-width: auto;
     font-size: large;
     padding-left: 20px;
+    line-height: 1.5em;
     
   }
 p.footer{
