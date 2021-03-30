@@ -103,7 +103,14 @@ input:hover {
   text-align: right;
   height: 25px;
   border: 0;
+  font-size: large;
   }
+#custsurf{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(126, 126, 126);
+}
 .tblecntxt{
   text-align: center;
   font-size: medium;
