@@ -30,7 +30,7 @@ p.contact{
       background-color: #fcfdb350;
     }
 
-a:link {color: inherit;
+a:link {color: rgb(0, 95, 139);
     text-decoration: none;
   }
 a:hover{
