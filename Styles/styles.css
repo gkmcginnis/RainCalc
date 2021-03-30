@@ -22,7 +22,7 @@ p.contact{
     border: 2px solid #dd8500;
     border-radius: 8px;
     padding: 10px;
-    font-style: bold;
+    font-weight: bold;
     color: inherit;
     text-decoration: none;}
 .contact:hover{
