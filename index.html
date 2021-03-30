@@ -103,8 +103,8 @@ any given period of time; annual, single day, monsoon season, etc.
           <th style="width: fit-content">gal/ft<sup>3</sup></th>
           <th>total (gal)</th>
         </tr>
-        <tr>
 <!-- Roof -->
+        <tr>
           <td class="surf">Roof</td>
           <td class="under"><input size="10" id = "Area1" value = "100"></input>&#215;</td>
           <td class="under"><input size="10" id = "rainfall1" value = "0.25"></input>&#215;</td>
@@ -138,16 +138,18 @@ any given period of time; annual, single day, monsoon season, etc.
           <td class="under"><input size="10" id = "coe4" value = "0.0"></input>&#215;</td>
           <td>7.48 &#61;</td>
           <td class="total"><input class="total"  readonly value="" id="subtotal4"></input></td>
-          </tr>
+        </tr>
+<!-- Action buttons and GT -->
         <tr>
             <td class="pointer">&#9758;</td>
-            <td ><button class="button" type="button" onClick="resetAllValues();">Clear Cells</button></td>
+            <td ><button id="clearbutton" class="button" type="button" onClick="resetAllValues();">Clear Cells</button></td>
             <td class="pointer">&#9758;</td>
-            <td colspan="1"><button class="button" onclick="copyGrand()">Copy Grand total</button></td>
+            <td colspan="1"><button id="grandbutton" class="button" onclick="copyGrand()">Copy Grand total</button></td>
             <td class="grandtext" colspan="1"><span> <br /><b>Grand total</b></span></td>
 
             <td class="total"><input size="15" class="total" id="grandtotal" readonly></input></td>
         </tr>
+<!-- Total CCF row -->
         <tr>
             <td></td>
             <td></td>
