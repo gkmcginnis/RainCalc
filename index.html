@@ -93,7 +93,7 @@ any given period of time; annual, single day, monsoon season, etc.
                 Bare earth: 0.3&#8202;&#9472;&#8202;0.55<br />
                 Grass: 0.1&#8202;&#9472;&#8202;0.25<br />&#8595;</th>
             <th></th>
-            <th></th>
+            <th style="vertical-align:bottom">rounded to nearest whole gallon<br />&#8595;</th>
         </tr>
         <tr class="header">
           <th class="surf">surface</th>
@@ -142,8 +142,9 @@ any given period of time; annual, single day, monsoon season, etc.
         <tr>
             <td class="pointer">&#9758;</td>
             <td ><button class="button" type="button" onClick="resetAllValues();">Clear Cells</button></td>
-            <td><button class="button" onclick="copyGrand()">Copy Grand total</button></td>
-            <td class="grandtext" colspan="2"><span><b>Grand total <br /><em>to nearest gallon</em></b></span></td>
+            <td class="pointer">&#9758;</td>
+            <td colspan="1"><button class="button" onclick="copyGrand()">Copy Grand total</button></td>
+            <td class="grandtext" colspan="1"><span> <br /><b>Grand total</b></span></td>
 
             <td class="total"><input size="15" class="total" id="grandtotal" readonly></input></td>
         </tr>
@@ -157,18 +158,21 @@ any given period of time; annual, single day, monsoon season, etc.
         </tr>
       </table>
  </div>
-
-
-<!-- Put some sort of "CLEAR ALL" button in  -->
-<button class="button" type="button" onclick="location.href='mailto:gkylemcginnis@gmail.com';">Email Kyle</button>
-<!-- <p class="contact"><a href="mailto:gkylemcginnis@gmail.com">Email Kyle</a></p> -->
 <div id="footer">
 <p class="footer">
-Formulas and concept from Brad Lancasterʼs <em><a href="https://www.harvestingrainwater.com/" target="_blank"> Rainwater Harvesting for Drylands and Beyond: Volume 1</a></em>&nbsp;(link opens in new tab)<br />
+Formulas and concept from Brad Lancasterʼs <b><a href="https://www.harvestingrainwater.com/" target="_blank"> Rainwater Harvesting for Drylands and Beyond: Volume 1</a></b>&nbsp;(link opens in new tab)<br />
 Produced by Sarah, Thomas, Tara, Rikki, Kyle, and Joan of Pima Community College LTP 140, Spring 2020 <br/>
 This should only be used for estimation purposes. Not responsible for seasonal meteorological variation and unpredictability. <br />
 Published March 2021. Work in progress.
 </p>
+<table style="width: 30%;">
+  <tr>
+    <td class="pointer">&#9758;</td>
+    <td><button class="button" type="button" onclick="location.href='mailto:gkylemcginnis@gmail.com';">Email Kyle</button></td>
+
+  </tr>
+<!-- <button class="button" type="button" onclick="location.href='mailto:gkylemcginnis@gmail.com';">Email Kyle</button> -->
+</table>
 </div>
   
  </body>

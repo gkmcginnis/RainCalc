@@ -35,7 +35,7 @@ a:link {color: inherit;
   }
 #header{
     background-color: #fcfdb350;
-    margin-top: 5px;
+    margin-top: 0px;
     padding: 5px 0px 5px 0px;
     border: 2px solid white;
     border-radius: 30px;
@@ -47,11 +47,14 @@ table {
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: large;
+    margin-left: auto;
+    margin-right: auto;
   }
 td {
     height: 30px;
     text-align: center;
     font-size: large;
+    /* background-color: deepskyblue; */
   }
 .header {
     text-align: center;
@@ -69,6 +72,7 @@ td {
     font-weight: bold;
     font-size: x-large;
     text-align: right;
+    vertical-align: bottom;
   }
 #totalccf {
   font-weight: bold;
@@ -98,8 +102,8 @@ input {
   border: 0;
   /* padding-right: 60px; */
   color: rgb(180, 0, 0);
-  letter-spacing: 0.05em;
-  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  line-height: 1.3em;
   }
   .grandtext{
     text-align: right;
@@ -119,12 +123,14 @@ input {
     font-weight: bold;
     padding: 10px 20px;
     /* display: inline-flex; */
+    float:none;
+    vertical-align: center;
     align-items: center;
     text-align: center;
     text-decoration: none;
     /* display: inline-block; */
     font-size: 20px;
-    cursor: pointer;
+    cursor:pointer;
   }
   .button:hover{
     background-color: #fcfdb350;
