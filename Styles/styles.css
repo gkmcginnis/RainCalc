@@ -155,5 +155,6 @@ input:hover {
     border: 2px solid rgb(126, 126, 126);
   }
   #undemo{
-    text-decoration: underline red;
+    text-decoration: underline rgb(126, 126, 126);
+    padding: 4px 4px;
   }
