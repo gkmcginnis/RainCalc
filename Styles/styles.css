@@ -12,6 +12,8 @@ p.intro{
   }
 p.footer{
     text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
     color: rgb(41, 41, 41);
     line-height: 1.5em;
 }
