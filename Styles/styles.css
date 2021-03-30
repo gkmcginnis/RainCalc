@@ -5,7 +5,8 @@ p.intro{
     text-align: left;
     max-width: auto;
     font-size: large;
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     line-height: 1.5em;
     
   }
@@ -152,4 +153,8 @@ input:hover {
   }
   #clearbutton {
     border: 2px solid rgb(126, 126, 126);
+  }
+  u{
+    text-decoration: underline;
+    text-decoration-color:  rgb(126, 126, 126);
   }
