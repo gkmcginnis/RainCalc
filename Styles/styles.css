@@ -154,7 +154,7 @@ input:hover {
   #clearbutton {
     border: 2px solid rgb(126, 126, 126);
   }
-  u{
+  #undemo{
     text-decoration: underline;
     text-decoration-color:  rgb(126, 126, 126);
   }
