@@ -114,47 +114,53 @@ input:hover {
   letter-spacing: 0.02em;
   line-height: 1.3em;
   }
-  .grandtext{
-    text-align: right;
-    font-size: medium;
-    height: 30px;
-    border: 0;
-    /* padding-right: 60px; */
-    color: rgb(180, 0, 0);
-    letter-spacing: 0.05em;
-    line-height: 1.2em;
+.grandtext{
+  text-align: right;
+  font-size: medium;
+  height: 30px;
+  border: 0;
+  /* padding-right: 60px; */
+  color: rgb(180, 0, 0);
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
   }
-  .button {
-    background-color: white;
-    border: 2px solid #dd8500;
-    border-radius: 8px;
-    color: black;
-    font-weight: bold;
-    padding: 10px 20px;
-    /* display: inline-flex; */
-    float:none;
-    vertical-align: center;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
-    font-size: 17px;
-    cursor:pointer;
-  }
-  .button:hover{
-    background-color: #fcfdb350;
-  }
-  .pointer{
-    text-align: right;
-    font-size: 3em;
-  }
-  #grandbutton{
-    border: 2px solid rgb(180, 0, 0);
-  }
-  #clearbutton {
-    border: 2px solid rgb(126, 126, 126);
-  }
-  #undemo{
-    text-decoration: underline rgb(126, 126, 126);
-    padding: 4px 4px;
-  }
+.button {
+  background-color: white;
+  border: 2px solid #dd8500;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  /* display: inline-flex; */
+  float:none;
+  vertical-align: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 17px;
+  cursor:pointer;
+}
+.button:hover{
+  background-color: #fcfdb350;
+}
+.pointer{
+  text-align: right;
+  font-size: 3em;
+}
+#grandbutton{
+  border: 2px solid rgb(180, 0, 0);
+}
+#clearbutton {
+  border: 2px solid rgb(126, 126, 126);
+}
+.undemo{
+  text-decoration: underline rgb(126, 126, 126);
+  padding: 4px 4px;
+  /* margin: 8px 0; */
+  font-size: medium;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(126, 126, 126);
+}
