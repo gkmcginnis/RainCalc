@@ -91,9 +91,8 @@ input {
   border-right: none;
   border-bottom: 1px solid rgb(126, 126, 126);
   }
-input:hover {
-  background-color: #fcfdb350;
-}
+input:hover {background-color: #fcfdb350;}
+input:focus{background-color: #fcfdb350;}
 .surf{
   text-align: right;
   /* height: 25px; */
