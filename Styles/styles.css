@@ -2,7 +2,7 @@
 body{width: 960px; margin: 0 auto;}
 *{font-family: 'Inter', Helvetica, sans-serif;
     text-align: center;}
-h2{font-weight:800;}
+h2{font-weight: 800;}
 p.intro{
     text-align: left;
     max-width: auto;
