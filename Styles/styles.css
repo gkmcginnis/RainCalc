@@ -101,7 +101,7 @@ input:focus{background-color: #fcfdb350;}
   }
 /* For the two editable surfaces in col 1 */
 #custsurf{
-  padding: 4px 0px;
+  padding: 4px 4px;
   border-top: none;
   border-left: none;
   border-right: none;
