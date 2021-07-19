@@ -171,4 +171,5 @@ input:focus{background-color: #fcfdb350;}
 
 input:invalid {
   background-color: pink;
+  border: 5px black;
 }
