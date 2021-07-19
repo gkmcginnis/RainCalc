@@ -57,6 +57,10 @@ td {
     text-align: center;
     font-size: large;
   }
+
+input:invalid {
+    background-color: pink;
+  }
 .header {
     text-align: center;
     height: 25px;
