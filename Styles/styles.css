@@ -169,7 +169,7 @@ input:focus{background-color: #fcfdb350;}
   border-bottom: 1px solid rgb(126, 126, 126);
 }
 
-input:invalid {
+input:invalid:not(:focus) {
   background-color: pink;
   border: 5px black;
 }
