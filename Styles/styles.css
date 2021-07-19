@@ -58,9 +58,7 @@ td {
     font-size: large;
   }
 
-input:invalid {
-    background-color: pink;
-  }
+
 .header {
     text-align: center;
     height: 25px;
@@ -169,4 +167,8 @@ input:focus{background-color: #fcfdb350;}
   border-left: none;
   border-right: none;
   border-bottom: 1px solid rgb(126, 126, 126);
+}
+
+input:invalid {
+  background-color: pink;
 }
