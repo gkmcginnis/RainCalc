@@ -160,7 +160,7 @@ input:focus{background-color: #fcfdb350;}
 /* for the last line of intro showing editable inputs */
 .undemo{
   padding: 0px 4px;
-  font-size: large;
+  font-size: medium;
   border-top: none;
   border-left: none;
   border-right: none;
