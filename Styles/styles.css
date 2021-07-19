@@ -95,6 +95,12 @@ input {
   }
 input:hover {background-color: #fcfdb350;}
 input:focus{background-color: #fcfdb350;}
+
+input:out-of-range {
+  background-color: pink;
+  border: 5px black;
+}
+
 .surf{
   text-align: right;
   /* height: 25px; */
@@ -169,7 +175,3 @@ input:focus{background-color: #fcfdb350;}
   border-bottom: 1px solid rgb(126, 126, 126);
 }
 
-input:invalid:not(:focus) {
-  background-color: pink;
-  border: 5px black;
-}
